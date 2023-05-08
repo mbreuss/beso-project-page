@@ -7,6 +7,7 @@ gem 'webrick'
 
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.12"
+  gem 'jekyll-scholar'
 end
 
 gem "jekyll-seo-tag", "~> 2.8"

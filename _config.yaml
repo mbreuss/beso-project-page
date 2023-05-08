@@ -1,15 +1,14 @@
 theme: minimal-mistakes-jekyll
-
+gems:
+  - jekyll-scholar
+scholar:
+  style: [your-bibliography-style]
+  bibliography: [path-to-bibliography-file]
+  sort_by: [field-to-sort-by]
+  order: [ascending-or-descending]
 # Build settings
 markdown: kramdown
 permalink: /:title/
 
-authors:
-  Moritz:
-    name: Moritz Reuss
-    bio: "Bio for Moritz."
-  Max:
-    name: Maximilian Li
-    bio: "Bio for Max."
 
 ---
