@@ -1,0 +1,14 @@
+- id: reuss2023goal
+  type: inproceedings
+  title: Goal Conditioned Imitation Learning using Score-based Diffusion Policies
+  author:
+  - family: Reuss
+    given: Moritz
+  - family: Li
+    given: Maximilian
+  - family: Jia
+    given: Xiaogang
+  - family: Lioutikov
+    given: Rudolf
+  booktitle: Proceedings of Robotics: Science and Systems (RSS)
+  year: '2023'

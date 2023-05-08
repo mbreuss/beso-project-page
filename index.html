@@ -4,6 +4,7 @@
 <head>
   <meta charset="utf-8">
   <title>Goal Conditioned Imitation Learning using Score-based Diffusion Policies</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
     /* CSS styles for centering everything */
     body {
@@ -12,55 +13,57 @@
       align-items: center;
       justify-content: center;
       height: 100vh;
+      margin: 20px 0;
     }
 
     h1 {
       text-align: center;
+      padding: 20px 0;
     }
 
     /* CSS styles for the authors' information */
-    /* CSS styles for the authors' information */
-.author-info {
-  text-align: center;
-  margin-top: 30px;
-  border-top: 1px solid #ccc;
-  padding-top: 30px;
-}
+    .author-info {
+      text-align: center;
+      margin-top: 30px;
+      border-top: 1px solid #ccc;
+      padding-top: 30px;
+    }
 
-.author-info h2 {
-  font-size: 24px;
-  margin-bottom: 10px;
-}
+    .author-info h2 {
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
 
-.author-info ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
+    .author-info ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
 
-.author-info li {
-  font-size: 18px;
-  font-weight: bold;
-  color: #333;
-  margin-right: 10px;
-  display: inline;
-}
+    .author-info li {
+      font-size: 18px;
+      font-weight: bold;
+      color: #333;
+      margin-right: 10px;
+      display: inline;
+    }
 
-.author-info p:last-child {
-  margin-right: 0;
-}
+    .author-info p:last-child {
+      margin-right: 0;
+    }
 
-.divider-line {
+    .divider-line {
       width: 100%;
       height: 1px;
       background-color: #ccc;
       margin-top: 50px;
       margin-bottom: 50px;
     }
-/* CSS styles for the abstract section */
-.abstract-section {
-  margin-top: 50px;
-}
+
+    /* CSS styles for the abstract section */
+    .abstract-section {
+      margin-top: 50px;
+    }
 
 .abstract-section h2 {
   font-size: 24px;
@@ -118,18 +121,16 @@
       We additionally provide extensive ablation studies and experiments to demonstrate the effectiveness of our method for
       effective goal-conditioned behavior generation.</p>
   </div>
-<div class="citation-section">
-  <h2>Citation</h2>
-  <p>To cite this paper:</p>
-  <pre>
-      <code>
-        {% for reference in site.data.references %}
-          <p>{{ reference.author }}. {{ reference.title }}. {{ reference.year }}.</p>
-        {% endfor %}
-      </code>
-    </pre>
-</div>
-
+  <div class="citation-section">
+    <h2>Citation</h2>
+    <p>To cite this paper:</p>
+    <code>
+      {% for reference in site.data.references %}
+        <p>{{ reference.author }}. {{ reference.title }}. {{ reference.year }}.</p>
+      {% endfor %}
+    </code>
+  </div>
 </body>
-
+</html>
+</body>
 </html>
