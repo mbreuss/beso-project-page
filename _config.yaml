@@ -1,0 +1,15 @@
+theme: minimal-mistakes-jekyll
+
+# Build settings
+markdown: kramdown
+permalink: /:title/
+
+authors:
+  Moritz:
+    name: Moritz Reuss
+    bio: "Bio for Moritz."
+  Max:
+    name: Maximilian Li
+    bio: "Bio for Max."
+
+---
