@@ -1,107 +1,64 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-  <meta charset="utf-8">
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   <title>Goal Conditioned Imitation Learning using Score-based Diffusion Policies</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌐</text></svg>">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌐</text></svg>">
+  
   <style>
-    /* CSS styles for centering everything */
-    body {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      height: 100vh;
-      margin: 20px 0;
-    }
-
     h1 {
+      font-size: 46px; 
+    }
+    h2 {
       text-align: center;
-      padding: 20px 0;
     }
+    .paper-info {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+      font-size: 18px; /* Adjust text size of code and conference info */
+    }
+    .authors {
+     
 
-    /* CSS styles for the authors' information */
-    .author-info {
       text-align: center;
-      margin-top: 30px;
-      border-top: 1px solid #ccc;
-      padding-top: 30px;
+      margin-top: 10px;
     }
-
-    .author-info h2 {
-      font-size: 24px;
-      margin-bottom: 10px;
-    }
-
-    .author-info ul {
-      list-style-type: none;
-      margin: 0;
-      padding: 0;
-    }
-
-    .author-info li {
-      font-size: 18px;
-      font-weight: bold;
-      color: #333;
-      margin-right: 10px;
-      display: inline;
-    }
-
-    .author-info p:last-child {
-      margin-right: 0;
-    }
-
-    .divider-line {
-      width: 100%;
-      height: 1px;
-      background-color: #ccc;
-      margin-top: 50px;
-      margin-bottom: 50px;
-    }
-
-    /* CSS styles for the abstract section */
-    .abstract-section {
-      margin-top: 50px;
-    }
-
-.abstract-section h2 {
-  font-size: 24px;
-  margin-bottom: 10px;
-}
-
-.abstract-section p {
-  font-size: 18px;
-  line-height: 1.5;
-}
-
-.citation-section {
-      margin-top: 50px;
-    }
-
-.citation-section h2 {
-  font-size: 24px;
-  margin-bottom: 10px;
-}
-
-.citation-section p {
-  font-size: 18px;
-  line-height: 1.5;
-}
+    
+  </style>
   </style>
 </head>
-
 <body>
-  <h1>Goal Conditioned Imitation Learning using Score-based Diffusion Policies</h1>
-  <div class="author-info">
-    <p><span class="author-name">Moritz Reuss</span></p>
-    <p><span class="author-name">Maximilian Li</span></p>
-    <p><span class="author-name">Xiaogang Jia</span></p>
-    <p><span class="author-name">Rudolf Lioutikov</span></p>
-  <div class="divider-line"></div>
-  <div class="abstract-section">
-    <h2>Abstract</h2>
-    <p>
+  <table style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto; padding-top: 50px;">
+    <tbody>
+      <tr style="padding:0px">
+        <td style="padding:2.5%;width:100%;vertical-align:middle">
+          <h1>Goal Conditioned Imitation Learning using Score-based Diffusion Policies</h1>
+          <div class="paper-info">
+            <p>RSS 2023</p>
+            <a href="https://arxiv.org/pdf/2304.02532">Paper</a>
+            <a href="https://your_code_link">Code</a>
+          </div>
+          <div class="authors">
+            <a href="https://irl.anthropomatik.kit.edu/21_65.php">Moritz Reuss</a>,
+            <a href="https://irl.anthropomatik.kit.edu/21_67.php">Maximilian Li</a>,
+            <a href="https://irl.anthropomatik.kit.edu/21_78.php">Xiaogang Jia</a>,
+            <a href="http://rudolf.intuitive-robots.net/">Rudolf Lioutikov</a> <br>
+                            
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td style="padding:2.5%;width:100%;vertical-align:middle">
+          <h2>Abstract</h2>
+          <div class="abstract-block"></div>
+          <p>
       We propose a new policy representation based on score-based diffusion models (SDMs).
       We apply our new policy representation in the domain of Goal-Conditioned Imitation Learning (GCIL) to learn
       general-purpose goal-specified policies from large uncurated datasets without rewards.
@@ -120,17 +77,56 @@
       goal-conditioned imitation learning methods on challenging benchmarks.
       We additionally provide extensive ablation studies and experiments to demonstrate the effectiveness of our method for
       effective goal-conditioned behavior generation.</p>
+  </p>
+</div>
+</td>
+</tr>
+<tr>
+  <td style="padding:2.5%;width:100%;vertical-align:middle">
+    <img src="data/beso_paper_vis.png" alt="Description of the image" style="display:block;margin-left:auto;margin-right:auto;width:100%">
+  </td>
+</tr>
+<tr>
+  <td style="padding:2.5%;width:100%;vertical-align:middle">
+    <h2>Method</h2>
+    <div class="abstract-block"></div>
+    <p>
+      This is an example of a new section of text with a heading. You can replace this with your own content.
+    </p>
   </div>
-  <div class="citation-section">
-    <h2>Citation</h2>
+  </td>
+</tr>
+<tr>
+  <td style="padding:2.5%;width:100%;vertical-align:middle">
+    <h2>Experiments</h2>
+    <div class="abstract-block"></div>
+    <p>
+    This is an example of a new section of text with a heading. You can replace this with your own content.
+    </p>
+  </div>
+  </td>
+</tr>
+<tr>
+  <td style="padding:2.5%;width:100%;vertical-align:middle">
+    <heading>BibTeX</heading>
     <p>To cite this paper:</p>
-    <code>
-      {% for reference in site.data.references %}
-        <p>{{ reference.author }}. {{ reference.title }}. {{ reference.year }}.</p>
-      {% endfor %}
-    </code>
-  </div>
+    <pre>
+      <code>
+          @inproceedings{reuss2023goal,
+            title={Goal Conditioned Imitation Learning using Score-based Diffusion Policies},
+            author={Reuss, Moritz and Li, Maximilian and Jia, Xiaogang and Lioutikov, Rudolf},
+            booktitle={Robotics: Science and Systems},
+            year={2023}
+          }
+      </code>
+    </pre>
+  </td>
+</tr>
+</tbody>
+</table>
 </body>
 </html>
-</body>
-</html>
+
+
+
+
